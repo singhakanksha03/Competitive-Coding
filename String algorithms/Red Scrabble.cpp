@@ -27,6 +27,12 @@ The three palindromic substrings are: 0, 6, 6.
 
 
  
+
+#ifdef ssu1
+#define _GLIBCXX_DEBUG
+#endif
+#undef NDEBUG
+ 
 #include <bits/stdc++.h>
 // #include <functional>
 // #include <numeric>
